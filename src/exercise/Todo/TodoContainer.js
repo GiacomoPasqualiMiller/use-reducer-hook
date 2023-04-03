@@ -39,7 +39,7 @@ export const TodoContainer = () => {
     e.preventDefault();
     //richiamo la funzione dentro al REDUCER passando:
     //-I Argomento-> "add_todo"
-    //-II Argomento-> tramite payload rappresenta il parametro dell'azione che stiamo per  in questo caso name
+    //-II Argomento-> tramite payload rappresenta il parametro dell'azione che stiamo per  in questo caso namee
     dispatch({ type: ACTIONS.ADD_TODO, payload: { name: name } });
     setName("");
   };
